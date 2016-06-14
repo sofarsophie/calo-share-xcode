@@ -1,0 +1,403 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		77F318EA1D10164A00592DB8 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77F318E91D10164A00592DB8 /* AppDelegate.swift */; };
+		77F318EC1D10164A00592DB8 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77F318EB1D10164A00592DB8 /* ViewController.swift */; };
+		77F318EF1D10164A00592DB8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 77F318ED1D10164A00592DB8 /* Main.storyboard */; };
+		77F318F11D10164A00592DB8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 77F318F01D10164A00592DB8 /* Assets.xcassets */; };
+		77F318F41D10164A00592DB8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 77F318F21D10164A00592DB8 /* LaunchScreen.storyboard */; };
+		77F318FF1D10164A00592DB8 /* CaloShareTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77F318FE1D10164A00592DB8 /* CaloShareTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		77F318FB1D10164A00592DB8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 77F318DE1D10164A00592DB8 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 77F318E51D10164A00592DB8;
+			remoteInfo = CaloShare;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		77F318E61D10164A00592DB8 /* CaloShare.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CaloShare.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		77F318E91D10164A00592DB8 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		77F318EB1D10164A00592DB8 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		77F318EE1D10164A00592DB8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		77F318F01D10164A00592DB8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		77F318F31D10164A00592DB8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		77F318F51D10164A00592DB8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		77F318FA1D10164A00592DB8 /* CaloShareTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CaloShareTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		77F318FE1D10164A00592DB8 /* CaloShareTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CaloShareTests.swift; sourceTree = "<group>"; };
+		77F319001D10164A00592DB8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		77F318E31D10164A00592DB8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		77F318F71D10164A00592DB8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		77F318DD1D10164A00592DB8 = {
+			isa = PBXGroup;
+			children = (
+				77F318E81D10164A00592DB8 /* CaloShare */,
+				77F318FD1D10164A00592DB8 /* CaloShareTests */,
+				77F318E71D10164A00592DB8 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		77F318E71D10164A00592DB8 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				77F318E61D10164A00592DB8 /* CaloShare.app */,
+				77F318FA1D10164A00592DB8 /* CaloShareTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		77F318E81D10164A00592DB8 /* CaloShare */ = {
+			isa = PBXGroup;
+			children = (
+				77F318E91D10164A00592DB8 /* AppDelegate.swift */,
+				77F318EB1D10164A00592DB8 /* ViewController.swift */,
+				77F318ED1D10164A00592DB8 /* Main.storyboard */,
+				77F318F01D10164A00592DB8 /* Assets.xcassets */,
+				77F318F21D10164A00592DB8 /* LaunchScreen.storyboard */,
+				77F318F51D10164A00592DB8 /* Info.plist */,
+			);
+			path = CaloShare;
+			sourceTree = "<group>";
+		};
+		77F318FD1D10164A00592DB8 /* CaloShareTests */ = {
+			isa = PBXGroup;
+			children = (
+				77F318FE1D10164A00592DB8 /* CaloShareTests.swift */,
+				77F319001D10164A00592DB8 /* Info.plist */,
+			);
+			path = CaloShareTests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		77F318E51D10164A00592DB8 /* CaloShare */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 77F319031D10164A00592DB8 /* Build configuration list for PBXNativeTarget "CaloShare" */;
+			buildPhases = (
+				77F318E21D10164A00592DB8 /* Sources */,
+				77F318E31D10164A00592DB8 /* Frameworks */,
+				77F318E41D10164A00592DB8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CaloShare;
+			productName = CaloShare;
+			productReference = 77F318E61D10164A00592DB8 /* CaloShare.app */;
+			productType = "com.apple.product-type.application";
+		};
+		77F318F91D10164A00592DB8 /* CaloShareTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 77F319061D10164A00592DB8 /* Build configuration list for PBXNativeTarget "CaloShareTests" */;
+			buildPhases = (
+				77F318F61D10164A00592DB8 /* Sources */,
+				77F318F71D10164A00592DB8 /* Frameworks */,
+				77F318F81D10164A00592DB8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				77F318FC1D10164A00592DB8 /* PBXTargetDependency */,
+			);
+			name = CaloShareTests;
+			productName = CaloShareTests;
+			productReference = 77F318FA1D10164A00592DB8 /* CaloShareTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		77F318DE1D10164A00592DB8 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0710;
+				LastUpgradeCheck = 0710;
+				ORGANIZATIONNAME = CaloShare;
+				TargetAttributes = {
+					77F318E51D10164A00592DB8 = {
+						CreatedOnToolsVersion = 7.1.1;
+						DevelopmentTeam = ZJHG7VSD5Q;
+					};
+					77F318F91D10164A00592DB8 = {
+						CreatedOnToolsVersion = 7.1.1;
+						DevelopmentTeam = ZJHG7VSD5Q;
+						TestTargetID = 77F318E51D10164A00592DB8;
+					};
+				};
+			};
+			buildConfigurationList = 77F318E11D10164A00592DB8 /* Build configuration list for PBXProject "CaloShare" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 77F318DD1D10164A00592DB8;
+			productRefGroup = 77F318E71D10164A00592DB8 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				77F318E51D10164A00592DB8 /* CaloShare */,
+				77F318F91D10164A00592DB8 /* CaloShareTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		77F318E41D10164A00592DB8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				77F318F41D10164A00592DB8 /* LaunchScreen.storyboard in Resources */,
+				77F318F11D10164A00592DB8 /* Assets.xcassets in Resources */,
+				77F318EF1D10164A00592DB8 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		77F318F81D10164A00592DB8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		77F318E21D10164A00592DB8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				77F318EC1D10164A00592DB8 /* ViewController.swift in Sources */,
+				77F318EA1D10164A00592DB8 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		77F318F61D10164A00592DB8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				77F318FF1D10164A00592DB8 /* CaloShareTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		77F318FC1D10164A00592DB8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 77F318E51D10164A00592DB8 /* CaloShare */;
+			targetProxy = 77F318FB1D10164A00592DB8 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		77F318ED1D10164A00592DB8 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				77F318EE1D10164A00592DB8 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		77F318F21D10164A00592DB8 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				77F318F31D10164A00592DB8 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		77F319011D10164A00592DB8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		77F319021D10164A00592DB8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		77F319041D10164A00592DB8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = CaloShare/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.caloshare.CaloShare;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		77F319051D10164A00592DB8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = CaloShare/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.caloshare.CaloShare;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		77F319071D10164A00592DB8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = CaloShareTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.caloshare.CaloShareTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CaloShare.app/CaloShare";
+			};
+			name = Debug;
+		};
+		77F319081D10164A00592DB8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = CaloShareTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.caloshare.CaloShareTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CaloShare.app/CaloShare";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		77F318E11D10164A00592DB8 /* Build configuration list for PBXProject "CaloShare" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				77F319011D10164A00592DB8 /* Debug */,
+				77F319021D10164A00592DB8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		77F319031D10164A00592DB8 /* Build configuration list for PBXNativeTarget "CaloShare" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				77F319041D10164A00592DB8 /* Debug */,
+				77F319051D10164A00592DB8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		77F319061D10164A00592DB8 /* Build configuration list for PBXNativeTarget "CaloShareTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				77F319071D10164A00592DB8 /* Debug */,
+				77F319081D10164A00592DB8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 77F318DE1D10164A00592DB8 /* Project object */;
+}
